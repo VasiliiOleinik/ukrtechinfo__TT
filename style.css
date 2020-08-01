@@ -1,0 +1,33 @@
+.main {
+    max-width: 50%;
+    min-height: 600px;
+    width: 100%;
+    border-radius: px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.select-box {
+    padding: 15px;
+}
+
+select {
+    max-width: 250px;
+    width: 100%;
+}
+
+.select2-container {
+    margin: 10px;
+}
